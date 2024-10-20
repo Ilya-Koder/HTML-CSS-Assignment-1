@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+/*Main components styles*/
+* {
+  margin: 0;
+}
+head {
+  font-family: "Nunito", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.background {
+  background-image: url(Assets/pexels-kellie-churchman-371878-1001682.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*class styles*/
+
+.border {
+  border: none;
+  width: 85%;
+  margin: auto;
+  background-color: black;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+/*navbar styles*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  border: solid rgb(84, 155, 154);
+  justify-content: end;
+  background-color: rgb(30, 70, 72);
+  border-radius: 8px;
+  margin-inline: 10px;
+  margin-block: 10px;
+  padding: 15px;
+}
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+  display: flex;
+}
+.navbar-menu li {
+  margin-right: 20px;
+}
+.navbar-menu a {
+  color: beige;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-size-adjust: 22px;
+  transition: background-color 0.3s;
+}
+.navbar-menu a:hover {
+  background-color: rgb(25, 45, 54);
+  border-radius: 5px;
+}
+/*Img/text styles*/
+.main-image {
+  padding: 20px;
+  height: 450px;
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-left: 20px;
+  gap: 20px;
+  color: rgb(255, 255, 255);
+}
+.hero-image {
+  display: flex;
+  height: 250px;
+  border-radius: 15px;
+}
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: baseline;
+  margin: 20px;
+  padding-bottom: 0%;
+}
+.profile-image {
+  border-radius: 50%;
+  height: 100px;
+}
+
+/*Button styles*/
+.media-links {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 20px;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+}
+.media-links {
+  transition-duration: 0.4s;
+}
+.media-links:hover {
+  background-color: hsl(0, 0%, 10%);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-size-adjust: 12px;
+  padding: 30px;
+}
+.media-header {
+  color: rgb(220, 220, 223);
+  padding: 10px;
+}
